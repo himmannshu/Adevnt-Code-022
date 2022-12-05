@@ -19,6 +19,8 @@ public class Day01 {
                     temp += Long.valueOf(data);
                 }
             }
+
+            sc.close();
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

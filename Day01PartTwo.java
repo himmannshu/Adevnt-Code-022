@@ -23,6 +23,8 @@ public class Day01PartTwo {
                     temp += Long.valueOf(data);
                 }
             }
+
+            sc.close();
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
